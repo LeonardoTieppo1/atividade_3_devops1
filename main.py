@@ -43,7 +43,7 @@ Base.metadata.create_all(bind=engine)
 def read_root():
 	# Retorna um JSON simples com Hello World
 	
-	return {"Hello": "World V3"}
+	return {"Hello": "World V2"}
 
 # Cria uma rota de GET com o path "/users"
 @app.get("/users")
